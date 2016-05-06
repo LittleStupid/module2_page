@@ -24,17 +24,17 @@
   background-color: yellow;
 }
 
-#main-content {
-  height: 1000px;
+#main-content-0, #main-content-1, #main-content-2 {
   width: 90%;
+  margin-top: 20px;
 }
 
-#main-content #text {
+#main-content-0 #text, #main-content-1 #text, #main-content-2 #text {
   background-color: grey;
 }
 
 @media ( max-width: 767px ) {
-  #main-content {
+  #main-content-0,  #main-content-1, #main-content-2 {
     width: 80%;
   }
 }
