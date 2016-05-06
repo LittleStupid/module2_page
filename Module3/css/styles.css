@@ -1,0 +1,40 @@
+* {
+  //border: black 1px solid;
+}
+
+#collapsable-nav li {
+  border: black 1px solid;
+  text-align: center;
+}
+
+#collapsable-nav a {
+  font-size: 16px;
+  color: black;
+}
+
+#collapsable-nav #nav-list #li_chicken {
+  background-color: grey;
+}
+
+#collapsable-nav #nav-list #li_beaf {
+  background-color: green;
+}
+
+#collapsable-nav #nav-list #li_sushi {
+  background-color: yellow;
+}
+
+#main-content {
+  height: 1000px;
+  width: 90%;
+}
+
+#main-content #text {
+  background-color: grey;
+}
+
+@media ( max-width: 767px ) {
+  #main-content {
+    width: 50%;
+  }
+}
